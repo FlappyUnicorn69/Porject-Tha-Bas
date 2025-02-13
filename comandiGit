@@ -15,6 +15,7 @@ vi (nome_file)  —> creo o apro (se esiste già) un file dentro vi :
 git branch —-> vedo quali branch ci sono
 git branch (nome)  —> creo un nuovo branch di nome (nome)
 git branch -D (nome)  —>   elimino il branch con nome (nome)
+git branch -a   ---> per mostrare tutti i branch nache quelli del repository origin
 
 git checkout branchB
 git merge branchA   —>  per fare merge del branchA nel branchB
@@ -42,3 +43,4 @@ git mv (nomeFile) (destinazione)   —> per spostare un file.    è già tutto p
 git fetch  ---> prende gli ultimi cambiamenti da origin ma non fa il merge
 git pull  ---> prende gli ultimi cambiamenti da origin e fa anche il merge
 git pull --rebase  --->  fa il fetch e rebase
+
