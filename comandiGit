@@ -39,3 +39,6 @@ git reset HEAD (nomeFile) —> serve per resettare la staging area e tornare all
 git rest –hard (id/tag..)  —> resetta per tornare alla situazione che vogliamo, resettando anche la working area
 git commit –amend -m” “  —> per aggiornare le modifiche dell’ultimo commit senza avere come finele due commit separati ma solo uno
 git mv (nomeFile) (destinazione)   —> per spostare un file.    è già tutto pronto per essere committato
+git fetch  ---> prende gli ultimi cambiamenti da origin ma non fa il merge
+git pull  ---> prende gli ultimi cambiamenti da origin e fa anche il merge
+git pull --rebase  --->  fa il fetch e rebase
