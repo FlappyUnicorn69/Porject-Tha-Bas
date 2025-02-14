@@ -36,8 +36,8 @@ cat (nomeFile) —> mi mostra il contenuto del file
 git chekout (id commit)  —> torno alla situazione di quel specifico commit
 git checkout (tag) —> posso usare anche i tag per raggiungere un determinato commit
 git checkout master   —-> torno alla situazione del commit master 
-git reset HEAD (nomeFile) —> serve per resettare la staging area e tornare alla situazione di HEAD 
-git rest –hard (id/tag..)  —> resetta per tornare alla situazione che vogliamo, resettando anche la working area
+git reset (commit) —> (di default è mixed) resetta l'index ma non il working tree  
+git rest –hard (id/tag..)  —> resetta l' index e working tree al commit desiderato
 git commit –amend -m” “  —> per aggiornare le modifiche dell’ultimo commit senza avere come finele due commit separati ma solo uno
 git mv (nomeFile) (destinazione)   —> per spostare un file.    è già tutto pronto per essere committato
 git fetch  ---> prende gli ultimi cambiamenti da origin ma non fa il merge
